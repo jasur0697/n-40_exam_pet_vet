@@ -846,6 +846,7 @@ img {
   padding: 15px 53px 14px 51px;
   margin-right: auto;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .map {
