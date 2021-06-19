@@ -6,7 +6,7 @@
   font-family: 'FuturaPT';
   src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
       url('../fonts/FuturaPT-Book.woff') format('woff');
-  font-weight: Book;
+  font-weight: 350;
   font-style: normal;
   font-display: swap;
 }
@@ -39,28 +39,22 @@
   font-display: swap;
 }
 
-
-
-
-
-
-
 :root {
-  --color-orange: ;
+  --color-main-grey:#333333 ;
   --color-primary-white: #fff;
-  --color-primary-grey: #495567;
-  --main-font: "Lexend Deca", "Arial", sans-serif;
-  --heading-font:"Space Mono" monospace;
-  --decription-color-grey:#939CAA;
-  --footer-bg-color-grey:#333A44;
+  --color-primary-grey: #949494;
+  --main-font: "FuturaPT", "Arial", sans-serif;
+  --background-color: #F9F8F8;;
 }
 
 body {
-  font-family: "Lexend Deca", "Arial", sans-serif;
+  font-family: "FuturaPT", "Arial", sans-serif;
   margin:0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
+  background-color: var(--background-color);
+  
+  background-image: url(../images/bg-full.svg);
 }
 
 img {
@@ -80,47 +74,166 @@ img {
 
 
 .container {
-  max-width:1110px;
+  max-width:1350px;
   padding-left:20px;
   padding-right:20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header {
+.header__info {
+ 
+
+}
+
+.header__info-container {
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  background: #F9F8F8;
+  color:var(--color-main-grey);
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info__header-address::before {
+  content: "";
+  background-image: url(../images/header-home.svg);
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+
+} 
+
+
+.header__tel-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin-left:106px ;
+  margin-right: 98px;
+}
+
+.tel__link {
+  text-decoration: none;
+  color:var(--color-main-grey);
+  display: flex;
+  align-items: center;
+}
+
+.telephone_icon::before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../images/header-telefon.svg);
+  margin-right: 9px;
+}
+
+.tel_dots::before {
+  content: "";
+  background-image: url(../images/header-dot.svg);
+  display: block;
+  width: 4px;
+  height: 4px;
+  margin:0 9px;
+}
+
+.info__header-days {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.info__header-days::before {
+  background-image: url(../images/calendar.svg);
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 9px;
+
+}
+
+.days-mar {
+  margin-right: 17px;
+}
+
+.header__nav_container {
   background-color: var(--color-primary-white);
 }
 
-
 .navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 22px ;
-  padding-bottom: 21px;
+  height: 61px;
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-main-grey);
 }
 
+.nav-logo {
+ 
+}
 
-.navbar__list {
-  list-style-type: none;
-  padding: 0;
+.nav__list {
   display: flex;
-  margin-left: 58.18px;
+  flex-wrap: wrap;
+  width: 692px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
 }
 
-.navbar__item:not(:last-child){
-  margin-right:32px;
+
+.nav__item:not(:last-child) {
+  margin-right: 55px;
 }
 
-.navbar__link {
+.nav__link {
+  text-decoration: none;
+  color: ;
+  color: var(--color-main-grey);
+}
+
+.nav__question {
+  text-decoration: none;
+  color: var(--color-main-grey);
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav__question::before {
+  content: "";
+  display: block;
+  background-image: url(../images/nav-lapa.svg);
+  margin-right: 4.68px;
+  width: 23px;
+  height: 26px;
+}
+
+
+
+/* .navbar__link {
   text-decoration: none;
   color: #939CAA;
   transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
-}
+} */
 
-.navbar__link:hover {
+/* .navbar__link:hover {
   color: var(--color-orange);
 }
 
@@ -152,7 +265,7 @@ img {
   background-color:transparent;
   border: 3px solid var(--color-orange);
   cursor: pointer;
-}
+} */
 
 
 .hero {
