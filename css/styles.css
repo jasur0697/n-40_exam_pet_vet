@@ -467,11 +467,12 @@ img {
 
 /* Services */
 
-.services__content {
+.services__process {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 191px;
 }
 .services__heading {
   margin: 0;
@@ -486,4 +487,197 @@ img {
 .services__list {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.services__item {
+  background-color: var(--color-primary-white);
+  position: relative;
+  z-index: 1;
+  margin-right: 13px;
+  text-align: center;
+  
+}
+
+.serv__item-desc {
+  padding: 129px 32px 42px 35px;
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--color-main-grey);
+}
+
+.serv_check::before {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 78px;
+  background-image: url(../images/services-1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(40px);
+  top: 30px;
+}
+
+.first_check::before {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 77px;
+  background-image: url(../images/services-2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.surg_check::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 77.14px;
+  background-image: url(../images/services-3.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.derm_check::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 76px;
+  background-image: url(../images/services-4.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.lab_check::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 77px;
+  background-image: url(../images/services-5.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.oft_check::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 77px;
+  background-image: url(../images/services-6.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.uzi_check::before {
+  content: "";
+  display: block;
+  width: 77px;
+  height: 77px;
+  background-image: url(../images/services-7.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(40px);
+  top: 30px;
+}
+
+.chipping_check::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 78px;
+  background-image: url(../images/services-8.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(70px);
+  top: 30px;
+}
+
+.passport_check::before {
+  content: "";
+  display: block;
+  width: 87px;
+  height: 78px;
+  background-image: url(../images/services-9.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+.vaccine_check::before {
+  content: "";
+  display: block;
+  width: 69px;
+  height: 78px;
+  background-image: url(../images/services-10.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.stom_check::before {
+  content: "";
+  display: block;
+  width: 78px;
+  height: 78px;
+  background-image: url(../images/services-11.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(50px);
+  top: 30px;
+}
+
+.order_check::before {
+  content: "";
+  display: block;
+  width: 78px;
+  height: 78px;
+  background-image: url(../images/services-12.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  right: calc(15px);
+  top: 30px;
+}
+
+.processes__container {
+  display: flex;
+  border: 1px solid red;
+
+}
+.process__content {
+  display: flex;
+  flex-direction: column;
+  width: 492px;
+
+}
+
+.prices_link-lists {
+  display: flex;
 }
