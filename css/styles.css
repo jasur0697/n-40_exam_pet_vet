@@ -3,56 +3,50 @@
 }
 
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url('LexendDeca-Regular.woff2') format('woff2'),
-      url('LexendDeca-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'FuturaPT';
+  src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Book.woff') format('woff');
+  font-weight: Book;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url('LexendDeca-Regular.woff2') format('woff2'),
-      url('LexendDeca-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Space Mono';
-  src: url('../fonts/SpaceMono-Bold.woff2') format('woff2'),
-      url('../fonts/SpaceMono-Bold.woff') format('woff');
+  font-family: 'FuturaPT';
+  src: url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
+
 @font-face {
-  font-family: 'Space Mono';
-  src: url('../fonts/SpaceMono-Bold.woff2') format('woff2'),
-      url('../fonts/SpaceMono-Bold.woff') format('woff');
-  font-weight: bold;
+  font-family: 'FuturaPT';
+  src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Medium.woff2') format('woff');
+  font-weight: medium;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url('../fonts/LexendDeca-Regular.woff2') format('woff2'),
-      url('../fonts/LexendDeca-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'FuturaPT';
+  src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
+
+
 
 
 
 
 
 :root {
-  --color-orange: #FCB72B;
+  --color-orange: ;
   --color-primary-white: #fff;
   --color-primary-grey: #495567;
   --main-font: "Lexend Deca", "Arial", sans-serif;
@@ -73,6 +67,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .visually-hidden {
   clip: rect(0 0 0 0); 
   clip-path: inset(50%);
