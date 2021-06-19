@@ -876,12 +876,18 @@ img {
   display: flex;
   flex-direction: column; 
 }
+.contact_inputs {
+  padding: 16px 290px 13px 22px;
+}
 
-.comtact-submit {
-  font-family: Futura PT;
+.contact-submit {
+  font-family: 'FuturaPT';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #1b0303;
+  padding: 15px 49px 14px 50px;
+  background-color: #FFBD54;
 }
+
