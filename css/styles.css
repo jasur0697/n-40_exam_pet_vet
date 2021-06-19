@@ -474,8 +474,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 191px;
+  overflow-x: hidden;
 }
 .services__heading {
   margin: 0;
@@ -491,8 +492,9 @@ img {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 80px;
+
 }
 
 .services__item {
@@ -806,10 +808,42 @@ img {
 
 .email__form {
   position: absolute;
-  top: 10px;
+  top: calc(50% - 32px);
+  left: calc(200px);
+}
+
+.email__label {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: var(--color-primary-white);
+ 
+}
+
+.email-inputs {
+  margin-top: 32px;
 }
 
 
 #email {
+  padding: 18px 147px 12px 22px;
+  border:none;
+  border-radius: 5px;
+  margin-right: 21px;
+}
 
+.email-submit {
+  border: none;
+  border-radius: 3px;
+  background: var(--color-main-grey);
+  color: var(--color-primary-white);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 15px 53px 14px 51px;
+  margin-right: auto;
+  margin-left: auto;
 }
