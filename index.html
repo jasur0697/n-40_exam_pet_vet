@@ -212,10 +212,28 @@
 </section>
 
 
-<section class="map_form">
-  <h3>
+<section class="contact_section">
+
+  <div class="contact_form-container">
+  <h3 class="contact__heading">
     Обратная связь
   </h3>
+  <p class="contact__desc">
+    При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:
+  </p>
+
+  <form class="contact_form" action="https://echo.htmlacademy.ru" name="contact-email" >
+    <input class="contact_inputs" type="text" placeholder="Ваше имя" name="contact-email">
+  <input class="contact_inputs"  type="email"  aria-label="Email" name="contact-email" placeholder="Email для обратной связи" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$">
+  <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+  <input class="contact-submit" type="submit" name="email" value="Задать нам вопрос">
+
+  </form>
+  
+</div>
+
 </section>
 
 
