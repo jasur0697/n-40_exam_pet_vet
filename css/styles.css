@@ -81,10 +81,7 @@ img {
   margin-right: auto;
 }
 
-.header__info {
- 
 
-}
 
 .header__info-container {
   font-family: 'FuturaPT';
@@ -105,7 +102,8 @@ img {
   display: inline-block;
   width: 14px;
   height: 13px;
-  margin-right: 9px;
+  padding-right: 9px;
+  background-repeat: no-repeat;
 
 } 
 
@@ -125,13 +123,22 @@ img {
   align-items: center;
 }
 
+.tel__link:hover {
+  color: #FFBD54;
+}
+
+.tel__link:active {
+  color: #FFBD54;
+}
+
 .telephone_icon::before {
   content: "";
   display: block;
   width: 13px;
   height: 13px;
   background-image: url(../images/header-telefon.svg);
-  margin-right: 9px;
+  padding-right: 9px;
+  background-repeat: no-repeat;
 }
 
 .tel_dots::before {
@@ -141,6 +148,7 @@ img {
   width: 4px;
   height: 4px;
   margin:0 9px;
+  background-repeat: no-repeat;
 }
 
 .info__header-days {
@@ -156,12 +164,12 @@ img {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin-right: 9px;
-
+  padding-right: 9px;
+  background-repeat: no-repeat;
 }
 
 .days-mar {
-  margin-right: 17px;
+  padding-right: 17px;
 }
 
 .header__nav_container {
@@ -181,8 +189,13 @@ img {
   color: var(--color-main-grey);
 }
 
-.nav-logo {
- 
+
+.nav-img:hover {
+  opacity: 0.8;
+}
+
+.nav-img:active {
+  opacity: 0.6;
 }
 
 .nav__list {
@@ -217,9 +230,10 @@ img {
   content: "";
   display: block;
   background-image: url(../images/nav-lapa.svg);
-  margin-right: 4.68px;
+  background-repeat: no-repeat;
+  padding-right: 4.68px;
   width: 23px;
-  height: 26px;
+  height: 30px;
 }
 
 
@@ -315,6 +329,7 @@ img {
     left: calc(-160px);
     top: calc(340px);
     z-index: 100;
+      background-repeat: no-repeat;
   }
 
 .hero__bottom-container {
