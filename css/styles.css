@@ -868,10 +868,20 @@ img {
   width: 1000px;
   display: flex;
   flex-direction: column;
+  padding: 62px  74px 166px 280px;
 }
 
 .contact_form {
   width: 375px;
   display: flex;
   flex-direction: column; 
+}
+
+.comtact-submit {
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
