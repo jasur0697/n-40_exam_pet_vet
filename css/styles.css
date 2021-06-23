@@ -110,7 +110,6 @@ img {
   height: 13px;
   padding-right: 9px;
   background-repeat: no-repeat;
-
 } 
 
 
@@ -849,9 +848,7 @@ img {
   cursor: pointer;
 }
 
-.map {
 
-}
 
 .contact_section {
   display: flex;
@@ -891,4 +888,392 @@ img {
   padding: 15px 49px 14px 50px;
   background-color: #FFBD54;
 }
+
+
+
+
+
+
+
+
+
+/* SERVICES PAGE */
+
+.service__heading {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--color-main-grey);
+  width: 447px;
+  margin-top: 118px;
+  margin-bottom: 21px;
+}
+
+.service__desc {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  width: 447px;
+  color: var(--color-primary-grey);
+}
+
+.hero__services {
+  display: block;
+  background-image: url(../images/service_bird.png);
+  height: 435px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 520px);
+}
+
+
+.site-services__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.our-services__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: -30px;
+  margin-top: -34px;
+  margin-bottom: 168px;
+}
+
+
+.list__item {
+  background-image: url(../images/lapa_service.svg);
+  width: 305px;
+  display: block;
+  background-color:white;
+  border-radius: 5px 5px 0px 0px;
+  padding: 58px 22px 45px 53px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 30px;
+  margin-top: 34px;
+  transition: .3s ease;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.list__item:hover {
+  -webkit-box-shadow: 5px -2px 43px -5px rgba(34, 60, 80, 0.25);
+  -moz-box-shadow: 5px -2px 43px -5px rgba(34, 60, 80, 0.25);
+  box-shadow: 5px -2px 43px -5px rgba(34, 60, 80, 0.25);
+}
+
+.doc-man::before {
+  background-image: url(../images/services-1.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.doc-girl::before {
+  background-image: url(../images/services-2.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.surg-dog::before {
+  background-image: url(../images/services-3.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+
+.dermotol::before {
+  background-image: url(../images/services-4.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.lab::before {
+  background-image: url(../images/services-5.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.oftolm::before {
+  background-image: url(../images/services-6.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.uzii::before {
+  background-image: url(../images/services-7.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+
+
+.chippin::before {
+  background-image: url(../images/services-8.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.global-passports::before {
+  background-image: url(../images/services-9.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.injection::before {
+  background-image: url(../images/services-10.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+.stom::before {
+  background-image: url(../images/services-11.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+
+.order::before {
+  background-image: url(../images/services-12.png);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-position: center;
+}
+
+
+
+.services-item__heading {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 34px;
+  margin-bottom:14px;
+  margin-top: 21px;
+  color: var(--color-main-grey);
+}
+
+.services-item__link {
+  text-decoration: none;
+  color: white;
+  padding: 15px 29px 14px 30px;
+  transition: background-color .3s ease, opacity 0.3s ease;
+}
+
+.services-item__link-yellow {
+  text-decoration: none;
+  color: white;
+  background-color: #FFBD54;
+}
+
+.services-item__link-blue {
+  text-decoration: none;
+  color: white;
+  background-color: #78C0DE;;
+
+}
+
+.services-item__link:hover {
+  background: #000000;
+}
+
+.services-item__link:active {
+  background: #000000;
+  opacity: 0.6;
+}
+
+.services-item_desc {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-primary-grey);
+  margin-bottom: 26px;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+  padding-top: 54px;
+  padding-bottom: 69px;
+  background:  #F3F3F3;
+}
+
+.footer__content {
+  display: flex; 
+  align-items: flex-start;
+}
+
+.footer-nav__list {
+  list-style-type: none;
+  width: 288px;
+  height: 91px;
+  padding: 0;
+  margin-left: 67px;
+  margin-right: 127px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.footer-list__item:not(:nth-child(3n)) {
+  margin-bottom: 14px;
+
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-main-grey);
+  margin-right: 87px;
+}
+
+.info__footer-days {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 112px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.calendar__icon::before {
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding-right: 9px;
+  position: absolute;
+  left: calc(50% - 90px);
+  bottom: calc(22px);
+}
+
+.info__footer-address {
+  width: 159px;
+  position: relative;
+  z-index: 1;
+  margin-right: 87px;
+
+}
+
+
+.info__footer-address::before {
+  content: "";
+  background-image: url(../images/header-home.svg);
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  padding-right: 9px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: calc(50% - 100px);
+  bottom: calc(22px);
+} 
+
+.footer__tel-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-telephone_icon {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-telephone_icon::before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../images/header-telefon.svg);
+  padding-right: 9px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: calc(50% - 90px);
+  bottom: calc(2px);
+}
+
 
